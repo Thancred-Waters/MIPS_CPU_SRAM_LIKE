@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug 19 16:53:31 2021
+# Process ID: 20300
+# Current directory: D:/Programs/vivado/CPU_CDE_SRAM/mycpu_sram_verify/run_vivado/mycpu_prj1/mycpu.runs/mymultu_synth_1
+# Command line: vivado.exe -log mymultu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mymultu.tcl
+# Log file: D:/Programs/vivado/CPU_CDE_SRAM/mycpu_sram_verify/run_vivado/mycpu_prj1/mycpu.runs/mymultu_synth_1/mymultu.vds
+# Journal file: D:/Programs/vivado/CPU_CDE_SRAM/mycpu_sram_verify/run_vivado/mycpu_prj1/mycpu.runs/mymultu_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mymultu.tcl -notrace

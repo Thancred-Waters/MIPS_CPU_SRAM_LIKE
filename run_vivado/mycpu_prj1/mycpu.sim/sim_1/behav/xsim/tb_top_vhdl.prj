@@ -1,0 +1,45 @@
+# compile vhdl design source files
+vhdl xpm  \
+"D:/Program_Files/vivado_2021_1/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl xbip_utils_v3_0_10  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" \
+
+vhdl axi_utils_v2_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd" \
+
+vhdl xbip_pipe_v3_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_wrapper_v3_0_4  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_addsub_v3_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_bram18k_v3_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" \
+
+vhdl mult_gen_v12_0_17  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" \
+
+vhdl floating_point_v7_0_19  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_mult_v3_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_multadd_v3_0_6  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd" \
+
+vhdl div_gen_v5_1_18  \
+"../../../../../../../../ucas_CDE_axi_ref/mycpu_axi_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic/hdl/div_gen_v5_1_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../../mycpu_prj1.gen/sources_1/ip/mydivu/sim/mydivu.vhd" \
+"../../../../../../../mycpu_prj1.gen/sources_1/ip/mydiv/sim/mydiv.vhd" \
+"../../../../../../../mycpu_prj1.gen/sources_1/ip/mymultu/sim/mymultu.vhd" \
+"../../../../../../../mycpu_prj1.gen/sources_1/ip/mymult/sim/mymult.vhd" \
+
+# Do not sort compile order
+nosort
